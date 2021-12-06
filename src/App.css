@@ -18,9 +18,6 @@ html, body {
     min-height: 100vh;
 }
 
-/* Nav bar */
-
-
 /* Components */
 
 .content {
@@ -79,53 +76,6 @@ html, body {
     padding: 10px;
     margin: 10px auto;
     border-radius: 10px;
-}
-
-/* Home */
-
-.Tabs {
-    margin: 10px;
-}
-
-.tab {
-    cursor: pointer;
-    padding: 10px;
-    width: 50%;
-}
-
-.questions-list {
-    padding: 0;
-    margin: 10px;
-}
-
-.questions-list-item {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    height: 250px;
-    border-bottom: 3px solid pink;
-}
-
-.view-poll {
-    background-color: pink;
-    font-weight: bold;
-    border-radius: 10px;
-    cursor: pointer;
-    padding: 10px;
-}
-
-.home-item-link {
-    padding: 10px;
-    text-decoration: none;
-    color: black;
-}
-
-.view-poll:hover {
-    border: white;
-}
-
-.home-item-link:hover {
-    color: white;
 }
 
 /* Answered */

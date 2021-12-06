@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
 import AuthedUser from './AuthedUser';
+import '../Home.css';
 
 class Home extends React.Component {
     state = {
@@ -14,6 +15,7 @@ class Home extends React.Component {
     };
 
     render() { 
+        
         const { showAnsweredQuestions } = this.state;
         
         const { authedUser, users, questions } = this.props;
@@ -62,7 +64,7 @@ class Home extends React.Component {
 
                                     <p>{question.optionTwo.text}</p>
 
-                                    <button className='view-poll'>
+                                    <button className='view-poll' onClick={this.handleClick}>
                                         <Link className='home-item-link' to={`/questions/${question.id}`}>
                                             View poll
                                         </Link>

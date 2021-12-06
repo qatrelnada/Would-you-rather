@@ -1,6 +1,6 @@
 import React from 'react';
 import { connect } from "react-redux";
-import { handleSetAuthedUser } from '../redux/thunks/authedUser'
+import { handleSetAuthedUser } from '../redux/thunks/authedUser';
 import { Redirect } from 'react-router-dom';
 
 class SignIn extends React.Component {
